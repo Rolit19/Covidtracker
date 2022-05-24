@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Vast+Shadow&display=swap');
+
+
+.page{
+    background: #000 !important;
+    color: white;
+    width: 98.7%;
+    height: 100vh;
+    margin-top: -23px;
+    padding: 10px;
+}
+
+ul{
+    margin-left: 15%;
+}
+
+.card{
+    width: 22%;
+    height: 190px;
+    margin: 2%;
+    padding: 10px;
+    box-shadow: 5px 5px 20px rgb(161, 161, 161);
+    text-align: center;
+}
+
+.card:hover{
+    width: 25%;
+    height: 210px;
+    transition-duration: 0.5s;
+    margin: 2%;
+    
+    text-align: center;
+}
+
+.card1{
+    background: rgb(69,211,252);
+    background: linear-gradient(90deg, rgba(69,211,252,1) 0%, rgba(34,52,253,1) 24%, rgba(29,30,253,1) 76%, rgba(69,211,252,1) 100%);
+}
+
+.card2{
+    background: rgb(69,252,108);
+    background: linear-gradient(90deg, rgba(69,252,108,1) 0%, rgba(33,187,120,1) 24%, rgba(33,187,120,1) 76%, rgba(69,252,108,1) 100%);
+}
+
+.card3{
+    background: rgb(242,252,69);
+    background: linear-gradient(90deg, rgba(242,252,69,1) 0%, rgba(220,221,36,1) 24%, rgba(220,221,36,1) 76%, rgba(242,252,69,1) 100%);
+}
+
+.card4{
+    background: rgb(252,200,69);
+    background: linear-gradient(90deg, rgba(252,200,69,1) 0%, rgba(255,156,8,1) 24%, rgba(255,156,8,1) 76%, rgba(252,200,69,1) 100%);
+}
+
+.card5{
+    background: rgb(255,127,127);
+    background: linear-gradient(90deg, rgba(255,127,127,1) 0%, rgba(255,8,8,1) 24%, rgba(255,8,8,1) 76%, rgba(255,127,127,1) 100%);
+}
+
+.card6{
+    background: rgb(166,116,7);
+    background: linear-gradient(90deg, rgba(166,116,7,1) 0%, rgba(170,96,0,1) 24%, rgba(170,96,0,1) 76%, rgba(166,116,7,1) 100%);
+}
+
+span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+}
